@@ -34,43 +34,66 @@ namespace IterationStatementsDemo
         
         static void Main(string[] args)
         {
-            //for(int i = 5; i <= 100; i+= 10)
-            //{
-            //    Console.WriteLine(i);
-            //}
-            CanVote();
+          //  //for(int i = 5; i <= 100; i+= 10)
+          //  //{
+          //  //    Console.WriteLine(i);
+          //  //}
+          //  CanVote();
 
-            Console.WriteLine("Prints numbers 100 to 0");
-            for(var i=100; i >= 0; i--)
+          //  Console.WriteLine("Prints numbers 100 to 0");
+          //  for(var i=100; i >= 0; i--)
+          //  {
+          //      Console.WriteLine(i);
+          //  }
+          //  Console.WriteLine();
+          //  Console.WriteLine("prints out array's 1 to 5 using foreach loop");
+
+          //  var myArr = new int[]{ 1, 2, 3, 4, 5 } ;
+
+          //  foreach (var num in myArr)
+          //   {
+          //         Console.WriteLine(num); 
+          //   }
+          //  Console.WriteLine();
+          //  Console.WriteLine("prints out array's 1 to 5 using for loop");
+          //  for (var i=0; i< myArr.Length; i++)
+          //{
+          //   Console.WriteLine(myArr[i]);
+          //}
+          //  int x = 0;
+          //  while (x < 18)
+          //  {
+          //      Console.WriteLine(x);
+          //      x++;
+          //  }
+
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+            for ( var i = 10; i >= 10; i--)
             {
                 Console.WriteLine(i);
             }
-            Console.WriteLine();
-            Console.WriteLine("prints out array's 1 to 5 using foreach loop");
 
-            var myArr = new int[]{ 1, 2, 3, 4, 5 } ;
-
-            foreach (var num in myArr)
-             {
-                   Console.WriteLine(num); 
-             }
-            Console.WriteLine();
-            Console.WriteLine("prints out array's 1 to 5 using for loop");
-            for (var i=0; i< myArr.Length; i++)
-          {
-             Console.WriteLine(myArr[i]);
-          }
-            int x = 0;
-            while (x < 18)
+            for (int i = 3; i < 15; i++)
             {
-                Console.WriteLine(x);
-                x++;
-            }
-                
-               
+                Console.WriteLine($"{i}");
 
-             
-            
+            }
+
+            for (int i = 0; 5 > i; i++)
+            {
+                Console.WriteLine($"{i}");
+            }
+
+
+
+
+
+
+
         }
 
     }
